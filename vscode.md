@@ -8,15 +8,10 @@
 
 ``` json
 {
-    // 禁用 JavaScript 验证
     "javascript.validate.enable": false,
-    // 保存时自动格式化
-    "editor.formatOnSave": true,
-    // 超过100字符自动换行
     "editor.wrappingColumn": 100,
-    // 默认行尾字符 LF
     "files.eol": "\n",
-    // 增加 beatuify 插件的语言支持
+    "beautify.onSave": ["js", "css", "html"],
     "beautify.language": {
         "css": [
             "less"
@@ -25,12 +20,12 @@
             "vue"
         ]
     },
-    // 设置 beatuify 插件忽略的文件
     "beautify.onSaveIgnore": [
         "**/node_modules/**",
         "**/*+(.|_|-)min.*"
     ]
 }
+
 ```
 
 ## 插件
@@ -66,11 +61,6 @@
             "es6": true,
             "node": true
         },
-        "globals": {
-            "fis": true,
-            "__uri": true,
-            "__inline": true
-        },
         "parser": "babel-eslint",
         "extends": "airbnb-base",
         "plugins": [
@@ -101,7 +91,7 @@
 
     > A mighty, modern CSS linter that helps you enforce consistent conventions and avoid errors in your stylesheets.
 
-    推荐在项目中使用 `.eslintrc` 文件保存配置。推荐配置还在整理中：
+    推荐在项目中使用 `.stylelintrc` 文件保存配置。推荐配置还在整理中：
 
     ``` json
     ```
