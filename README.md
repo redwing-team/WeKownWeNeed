@@ -1,4 +1,4 @@
-# 我们所了解的以及我们需要的【前端篇】
+# 我们所了解的以及我们需要的
 
 这里有我们在项目开发中涉及的相关技术，按照生命周期大致分成以下几类：
 
@@ -15,20 +15,26 @@
 * [应用] svn
 * [计划] [git](https://git-scm.com/doc)
 
-## 开发工具
+## CDN
+
+* [应用] [七牛](http://www.qiniu.com/)
+
+## 前端篇
+
+### 开发工具
 
 * [应用] photoshop
 * [应用] sublime
-* [应用] vscode
+* [应用] [vscode](vscode.md)
 * [应用] fiddler
 
-## 代码静态语法检查与格式化
+### 代码静态语法检查与格式化
 
 * [应用] eslint
 * [应用] js-beautify
 * [应用] stylelint
   
-## 构建工具
+### 构建工具
 
 * [应用] [fis3](http://fis.baidu.com/)
   * fis-parser-less
@@ -42,7 +48,7 @@
 * [预研] webpack
 * [停用] gulp
 
-## 核心库
+### 核心库
 
 * [预研] [vue-router.js v2.0](https://github.com/vuejs/vue-router)
 * [计划] [vue.js v2.0](https://github.com/vuejs/vue)
@@ -58,9 +64,6 @@
 * [停用] jquery.js
 * [弃用] zepto.js
 
-## CDN
-
-* [应用] [七牛](http://www.qiniu.com/)
 
 ## 代码规范
 
