@@ -36,14 +36,7 @@
   
 ### 构建工具
 
-* [应用] [fis3](http://fis.baidu.com/)
-  * fis-parser-less
-  * fis-optimizer-rjy-html-minifier
-  * fis-postprocessor-rjy-postcss
-  * fis3-postpackager-loader
-  * fis3-hook-commonjs
-  * fis3-hook-node_modules
-  * fis-parser-babel-5.x
+* [应用] [fis3](fis.md)
 * [应用] rollup
 * [预研] webpack
 * [停用] gulp
